@@ -20,7 +20,7 @@ This project implements a Django REST Framework (DRF) API that calculates a rout
 
 4. **RESTful API**
    - Accepts input for start and finish locations (latitude and longitude).
-   - Returns the route, fuel stops, and total fuel cost.
+   - Returns the route and total fuel cost.
 
 ---
 
