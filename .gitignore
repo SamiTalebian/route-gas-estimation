@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.env
+.venve
+
+
+# Static files
+node_modules/
+staticfiles/
+media/ 
+
+# Django test output
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+
+# Dependencies
+venv/
+*.venv
+pip-selfcheck.json
+
+# Other
+*.DS_Store
+*.idea/
+*.vscode/
+*.ipynb
+
+**/migrations/*.py
+**/migrations/*.pyc
+static/
+root/settings/production.py
+Pipfile
