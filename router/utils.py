@@ -43,7 +43,6 @@ def filter_gas_stations(file_path, lat1, lon1, lat2, lon2, output_file='filtered
 
 # encoded_geometry = "mlpqFh|x_S{peEdDqd@lbc@auGjqJuxfAt|cAwu_@hbEukCtk]c_Ob_d@y_ThgXsif@laqAjrC~fc@cmJtzeChb^dinD{oB`omAi}G`za@n|Qv~w@coAfrKfbNlk\\zt@fvLw}FhsS`aCdafAb}_@dh_AvbN`|{@meAfjb@t~Ft{Q|}Bhnl@p`VthQ~~]xju@hoZagHb`T`vWurEppKplFpj}@ohGm~@"
 def decode_geometry(encoded_geometry):
-    encoded_geometry = "mlpqFh|x_S{peEdDqd@lbc@auGjqJuxfAt|cAwu_@hbEukCtk]c_Ob_d@y_ThgXsif@laqAjrC~fc@cmJtzeChb^dinD{oB`omAi}G`za@n|Qv~w@coAfrKfbNlk\\zt@fvLw}FhsS`aCdafAb}_@dh_AvbN`|{@meAfjb@t~Ft{Q|}Bhnl@p`VthQ~~]xju@hoZagHb`T`vWurEppKplFpj}@ohGm~@"
     decoded_points = polyline.decode(encoded_geometry)
 
     return decoded_points
