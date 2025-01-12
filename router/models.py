@@ -1,6 +1,5 @@
 from django.db import models
 import pandas as pd
-import math
 import requests
 
 from router.utils import decode_geometry, euclidean_distance_km

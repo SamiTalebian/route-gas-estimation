@@ -1,5 +1,6 @@
 from rest_framework import serializers
 
+from router.utils import filter_gas_stations
 from .models import GasStationRoute
 
 class LocationPointsSerializer(serializers.ModelSerializer):
@@ -12,7 +13,7 @@ class LocationPointsSerializer(serializers.ModelSerializer):
         route = instance.fetch_route()
 
         # Example: Filter gas stations and move vehicle along route
-        filtered_gas_stations = instance.filter_gas_stations(
+        filtered_gas_stations = filter_gas_stations(
             "fuel-prices-with-coordinates.csv",
             instance.latitude_start,
             instance.longitude_start,

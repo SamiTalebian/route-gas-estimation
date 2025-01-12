@@ -20,5 +20,5 @@ from router.views import Test
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('test', Test.as_view()),
+    path('api/route', Test.as_view()),
 ]
