@@ -13,10 +13,10 @@ This project implements a Django REST Framework (DRF) API that calculates a rout
 
 2. **Fuel Optimization**
    - Identifies optimal fuel stops within 500 miles of the current location.
-   - Finds the cheapest gas station within 50 km at each stop.
+   - Finds the cheapest gas station in the last 20 km of fuel.
    
 3. **Cost Calculation**
-   - Computes the total cost of fuel for the journey based on fuel prices and vehicle efficiency.
+   - Computes the total cost of fuel for the journey based on fuel prices and vehicle capacity.
 
 4. **RESTful API**
    - Accepts input for start and finish locations (latitude and longitude).
